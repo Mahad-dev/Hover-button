@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .button-slide {
+        border: 2px solid rgb(216, 2, 2);
+        border-radius: 30px;
+        padding: 18px 36px;
+        font-family: " system-ui";
+        font-size: 14px;
+        letter-spacing: 10px;
+        cursor: pointer;
+        transition: ease-in 0.4s;
+        transition: ease-out 0.7s;
+      }
+      .button-slide:hover {
+        box-shadow: inset 400px 0 0 0 #d802d1c6;
+      }
+      .parent {
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        text-align: center;
+        min-height: 100vh;
+        display: flex;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="button-slide slide-right">BUTTON</div>
+    </div>
+
+    <!-- <div class="button_slide slide_right">BUTTON: SLIDE RIGHT </div> -->
+  </body>
+</html>
